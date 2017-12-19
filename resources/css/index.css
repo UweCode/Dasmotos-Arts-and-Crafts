@@ -1,22 +1,23 @@
-* {
+html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1  {
+h1 {
+  background-image: url("../images/pattern.jpeg");
   color: khaki;
   font-size: 100px;
-  font-weight: bold;
+  padding: 2px 5px;
+  text-align: center;
 }
 
-h2  {
+h2 {
   color: white;
   font-size: 32px;
-  font-weight: bold;
+  width: 100%;
 }
 
-h3  {
-  font-size: 18px;
-  font-weight: bold;
+h3 {
+  font-size: 18px
 }
 
 p {
@@ -27,19 +28,8 @@ p {
   margin-top: 32px;
 }
 
-.header {
-  background-image: url("../images/pattern.jpeg");
-  padding: 2px 5px;
-  text-align: center;
-}
-
-.sectionHeader {
-  width: 100%;
-}
-
 .price {
   color: blue;
-  font-weight: bold;
 }
 
 #brushSection {
